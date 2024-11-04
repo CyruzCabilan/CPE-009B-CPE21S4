@@ -11,10 +11,9 @@ def main():
 
  tempInFahrenheit = float(input("Enter the temperature in Fahrenheit: "))
  convert = KelvinToCelsius(tempInFahrenheit)
- print(str(convert.conversion()) - " Celsius")
- tempInkelvin = float(input("Enter the temperature in Kelvin: "))
- convert = KelvinToCelsius(tempInFahrenheit)
  print(str(convert.conversion()) + " Celsius")
-
+ tempInkelvin = float(input("Enter the temperature in Kelvin: "))
+ convert = KelvinToCelsius(tempInkelvin)
+ print(str(convert.conversion()) + " Celsius")
 
 main()
